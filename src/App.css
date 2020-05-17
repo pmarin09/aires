@@ -44,6 +44,10 @@ label {
   margin-right: 0.5em;
 }
 
+.btn {
+  box-shadow: 5px 10px 5px darkgray;
+}
+
 @media (max-width: 380px) {
   .App {
     text-align: center;

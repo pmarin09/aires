@@ -9,13 +9,21 @@ function Servicios() {
   return (
     <div className="services">
       <ul className="list">
-        <li>{servUno}</li>
-        <li>{servDos}</li>
-        <li>{servTres}</li>
-        <li>{servCuatro}</li>
+        <li>
+          <a href="#servUno">{servUno}</a>
+        </li>
+        <li>
+          <a href="#servDos">{servDos}</a>
+        </li>
+        <li>
+          <a href="#servTres">{servTres}</a>
+        </li>
+        <li>
+          <a href="#servCuatro">{servCuatro}</a>
+        </li>
       </ul>
       <div>
-        <h3>{servUno}</h3>
+        <h3 id="servUno">{servUno}</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quia
           dolores similique iure non iusto ex tempora eveniet obcaecati mollitia
@@ -24,7 +32,7 @@ function Servicios() {
         </p>
       </div>
       <div>
-        <h3>{servDos}</h3>
+        <h3 id="servDos">{servDos}</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
           odio. Inventore neque natus amet dicta delectus laborum impedit minima
@@ -33,7 +41,7 @@ function Servicios() {
         </p>
       </div>
       <div>
-        <h3>{servTres}</h3>
+        <h3 id="servTres">{servTres}</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
           consequatur error sequi atque dolore nemo recusandae quam natus
@@ -42,7 +50,7 @@ function Servicios() {
         </p>
       </div>
       <div>
-        <h3>{servCuatro}</h3>
+        <h3 id="servCuatro">{servCuatro}</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
           accusantium quis beatae architecto enim ad at provident voluptate
