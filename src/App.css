@@ -1,0 +1,209 @@
+.header {
+  display: flex;
+  background-color: rgb(188, 239, 255);
+}
+
+.header img {
+  margin: 2vw;
+  justify-self: flex-start;
+  width: 6vw;
+  height: 12vh;
+}
+
+.titleOne {
+  text-align: center;
+  font-size: 2.4em;
+  padding: 1vw;
+  width: 76vw;
+}
+
+ul.list {
+  list-style: none;
+  font-size: 1.5em;
+  text-align: start;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+}
+
+.back {
+  background-image: url("girl.jpg");
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.65);
+  height: 140vh;
+}
+
+.services,
+.request {
+  padding: 2vw;
+  width: 50%;
+}
+
+.request {
+  border-left: solid;
+}
+
+.aspect {
+  padding: 1vw;
+  font-size: 1.4em;
+}
+
+label {
+  margin-right: 0.5em;
+}
+
+.btn {
+  margin: 1vw;
+  font-size: 1em;
+  font-weight: 600;
+  height: 2.4em;
+  box-shadow: 5px 10px 5px darkgray;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(115, 134, 141);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(188, 239, 255);
+  color: black;
+}
+
+#cuantos,
+#cuando,
+#hora {
+  border-radius: 5px;
+  padding: 0em 0.5em;
+  font-size: 1em;
+}
+
+
+body{
+	background: rgb(255, 255, 255);
+	margin: 0;
+}
+
+
+
+.post_text{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-img-top{
+border-radius: 10px;
+height: 300px;
+}
+
+.forms{
+	width: 300%;
+	max-width: 500px;
+	padding: 15px;
+	margin: auto;
+	margin-top: 60px;
+	border-style: solid;
+  border-color: #e6e9ec !important;
+	border-width: 0.5px;
+}
+
+.alert{
+	position: absolute;
+}
+
+.d-flex{
+	display: grid;
+	flex-wrap: wrap;
+}
+
+.btn{
+	display: block;
+    width: 50%;
+	margin: auto;
+	border-radius: 30px;
+	height: 50px;
+}
+
+.input{
+	text-align: center;
+	text-align-last: center;
+  }
+
+  #ac_brand{
+	display: block;
+	width: 75%;
+	height: 40px;
+	margin: auto;
+	border-radius: 10px;
+	text-align: center;
+  	text-align-last: center;
+  }
+  #service_type{
+	display: block;
+	width: 75%;
+	height: 40px;
+	margin: auto;
+	border-radius: 10px;
+	text-align: center;
+  	text-align-last: center;
+  }
+  #ac_qty{
+	display: block;
+	width: 20%;
+	margin: auto;
+	text-align: center;
+  	text-align-last: center;
+  }
+
+  .form-control{
+	text-align: center;
+	text-align-last: center;
+  }
+
+  
+  @media (max-width: 420px) {
+  .back {
+    background-image: none;
+  }
+
+  .header img {
+    margin: 1vw;
+    width: 14vw;
+  }
+
+  .titleOne {
+    font-size: 1.7em;
+    padding: 0;
+  }
+
+  .content {
+    text-align: center;
+    display: inline;
+    padding: 0 1.5em;
+  }
+
+  ul.list {
+    text-align: center;
+    margin-left: -1em;
+  }
+
+  .services{
+    width: 97%;
+    border: none;
+  }
+  .request, {
+    width: 97%;
+    border: none;
+  }
+
+  .forms{
+    max-width: 350px;
+  }
+ 
+}
