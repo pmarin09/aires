@@ -1,18 +1,20 @@
 .header {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   background-color: rgb(188, 239, 255);
+}
+
+.header img {
+  margin: 2vw;
+  justify-self: flex-start;
+  width: 6vw;
+  height: 12vh;
 }
 
 .titleOne {
   text-align: center;
-  width: 100vw;
-}
-
-.titleTwo {
-  text-align: center;
-  width: 100vw;
+  font-size: 2.4em;
+  padding: 1vw;
+  width: 76vw;
 }
 
 ul.list {
@@ -23,6 +25,17 @@ ul.list {
 
 .content {
   display: flex;
+  position: absolute;
+}
+
+.back {
+  background-image: url("girl.jpg");
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.65);
+  height: 140vh;
 }
 
 .services,
@@ -70,16 +83,34 @@ label {
 }
 
 @media (max-width: 420px) {
-  .App {
-    text-align: center;
+  .back {
+    background-image: none;
   }
+
+  .header img {
+    margin: 1vw;
+    width: 14vw;
+  }
+
+  .titleOne {
+    font-size: 1.7em;
+    padding: 0;
+  }
+
   .content {
+    text-align: center;
     display: inline;
+    padding: 0 1.5em;
+  }
+
+  ul.list {
+    text-align: center;
+    margin-left: -1em;
   }
 
   .services,
   .request {
-    width: 100%;
+    width: 97%;
     border: none;
   }
 }

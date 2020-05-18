@@ -8,6 +8,7 @@ function Servicios() {
 
   return (
     <div className="services">
+      <h2>Nuestros Servicios:</h2>
       <ul className="list">
         <li>
           <a href="#servUno">{servUno}</a>

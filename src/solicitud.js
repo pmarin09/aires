@@ -12,7 +12,7 @@ function Solicitud() {
 
   return (
     <div className="request">
-      <h1>Reserve su visita</h1>
+      <h2>Reserve su visita</h2>
       <form className="form">
         <div className="aspect">
           <h4>Servicio requerido</h4>
