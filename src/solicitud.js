@@ -1,15 +1,6 @@
 import React from "react";
 
 function Solicitud() {
-  const servUno = "Reparación";
-  const servDos = "Mantenimiento";
-  const servTres = "Otros Servicios";
-  const servCuatro = "Otros Servicios";
-  const marcaUno = "Marca uno";
-  const marcaDos = "Marca dos";
-  const marcaTres = "Marca tres";
-  const marcaCuatro = "Marca cuatro";
-  
 
   function post(e){
     const form = new FormData(document.getElementById('reserva'));
@@ -59,7 +50,7 @@ function Solicitud() {
           <option value="Midea" className="dropdown">Midea</option>
           </select>
         </div>
-        <div> Otra Marca:<input type="text" name="ac_brand"className="form-control mb-4"/></div>
+        
         <div> Cantidad de Aires Acondicionados: <input type="number" name="ac_qty"className="form-control mb-4" id="ac_qty"/> </div>
         <input type="submit" value="Hacer Reserva" className = "btn btn-primary btn-block"/>
       </form>
